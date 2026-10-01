@@ -1,0 +1,9 @@
+﻿statistic,value,note
+participation vs df Spearman rho,0.549,p 2.44e-47
+betweenness vs df Spearman rho,0.583,p 2.28e-54
+"mean df, bridges",29.1,
+"mean df, non-bridges",15.8,
+"mean df difference, Welch p",7.15e-06,t 5.03
+frequency band used,10 to 24,260 concepts
+"band mean df, bridges",16.9,
+"band mean df, all",14.8,

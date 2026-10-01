@@ -1,0 +1,86 @@
+cff-version: 1.2.0
+message: "If you use this software or the derived outputs, please cite the associated manuscript."
+title: "Neither a Hierarchy nor a Bridging Elite: The Conceptual Architecture of the High-Performance Sport Ecosystem"
+abstract: >-
+  Replication repository for a falsification test of the structural assumption behind
+  the nine-pillar (SPLISS) model of high-performance sport. Three predictions of a
+  vertical architecture were specified in advance and tested against a concept network
+  built from 448 Scopus documents (2013-2025). None produced the vertical picture and two
+  produced nothing at all. What survives is a segmented field with a technical centre
+  and diffuse integration. Includes a degree-controlled bridge analysis showing that the
+  standard measure of integrative position is substantially a measure of how common a
+  word is, and a manuscript verifier that fails the build on any untraceable statistic,
+  unresolved citation or word-count disagreement.
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/mahsatorabi/high-performance-sport-ecosystem-architecture"
+
+# Bibliographic records retrieved from Scopus are NOT redistributed (see README).
+# Derived outputs (tables, figures, verification files): CC BY 4.0
+
+keywords:
+  - bibliometrics
+  - science mapping
+  - network analysis
+  - null models
+  - concept networks
+  - high-performance sport
+  - SPLISS
+  - sport policy
+  - text mining
+
+authors:
+  - family-names: "[Author name]"
+    given-names: "[Author name]"
+
+related-identifiers:
+  - type: url
+    value: "https://github.com/mahsatorabi/high-performance-sport-concept-network"
+    relation: isSupplementTo
+    notes: >-
+      Companion paper. This repository is second-order: it analyses the concept
+      families, network and domain labels produced by that paper's pipeline and reads
+      three inputs from it (corpus.json, network_edges.csv, pillar_of.json), all
+      withheld here under the Scopus licence.
+
+references:
+  - authors:
+      - family-names: "Fortunato"
+    title: "Algorithmic centrality"
+    year: 2010
+  - authors:
+      - family-names: "Batagelj"
+      - family-names: "Zaversnik"
+    title: "An O(m) algorithm for cores decomposition of networks"
+    year: 2003
+  - authors:
+      - family-names: "Lancichinetti"
+      - family-names: "Fortunato"
+    title: "Benchmark graphs for testing community detection algorithms"
+    year: 2008
+  - authors:
+      - family-names: "Guimera"
+      - family-names: "Nunes Amaral"
+    title: "Cartography of complex networks: Modules and universal roles"
+    year: 2005
+  - authors:
+      - family-names: "Newman"
+    title: "Mixing patterns in networks"
+    year: 2003
+  - authors:
+      - family-names: "Reimers"
+      - family-names: "Gurevych"
+    title: "Sentence-BERT: Sentence embeddings using Siamese BERT-networks"
+    year: 2019
+  - authors:
+      - family-names: "Benjamini"
+      - family-names: "Hochberg"
+    title: "Controlling the false discovery rate"
+    year: 1995
+  - authors:
+      - family-names: "Gallagher"
+      - family-names: "Young"
+      - family-names: "Foucault Welles"
+    title: "A clarified typology of core-periphery structure in networks"
+    year: 2021

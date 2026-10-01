@@ -1,0 +1,8 @@
+﻿statistic,value,note
+"named-domain diagonal share, full network",0.0462,mean of the three within-domain cells
+"named-domain off-diagonal share, full network",0.0524,mean of the six between-domain cells
+"named-domain diagonal / off-diagonal, full network",0.882,below 1: not internally clustered by edge weight
+"named-domain diagonal / off-diagonal, unassigned removed",0.882,unchanged by the removal
+"unassigned diagonal share, full network",0.0633,below its own off-diagonals; the least internally connected block
+"within-domain share of edges, all blocks",0.31,"from A2_load_bearing.csv, against 0.257 by chance"
+"assortativity for domain, full network",0.0723,degree-weighted; positive because it weights edge ends

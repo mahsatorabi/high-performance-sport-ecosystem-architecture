@@ -1,0 +1,19 @@
+﻿statistic,value,note
+participation vs df Spearman rho,0.549,confounded
+corrected z vs df Spearman rho,-0.046,frequency dependence largely removed
+participation mean observed,0.589,
+participation mean under null,0.6234,
+concepts with corrected z above 1.96,0,of 584 eligible
+concepts with corrected z above 3.09,0,of 584 eligible
+maximum corrected z,1.43,
+corrected bridge set size,59,top decile of corrected z
+overlap with raw participation decile,25,of 59
+Spearman raw PC against corrected z,0.64,
+corrected bridge chi-square,0.6,p 0.897
+corrected bridge mean df,14.2,against 17.1 for the rest
+"corrected bridges, mean periods touched",3.41,against 3.37
+"corrected bridges, mean countries touched",3.97,against 4.18
+frequency band bridge chi-square,1.28,"df 10 to 24, p 0.734"
+"mean corrected z, named domains",-0.552,n = 401
+"mean corrected z, unassigned",-0.457,n = 183
+"Cohen's d, unassigned above named",0.068,the unassigned population is the most integrative

@@ -1,0 +1,53 @@
+MIT License
+
+Copyright (c) 2026 [Author name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+====================================================================
+DATA LICENSING NOTICE
+====================================================================
+This repository contains ANALYSIS CODE AND DERIVED OUTPUTS ONLY.
+
+The bibliographic records analysed in the associated study were retrieved
+from Scopus and are NOT redistributed here, in whole or in part, in
+accordance with the Scopus Terms of Use. No bibliographic record text
+(titles, abstracts, author keywords, affiliations, or full records) is
+included in this repository.
+
+Three inputs are withheld that would otherwise be needed to rerun the
+pipeline:
+
+    corpus.json          consolidated corpus, contains abstracts
+    network_edges.csv    concept co-occurrence edge list
+    pillar_of.json       concept-to-domain label map
+
+All three are produced by the companion repository
+(https://github.com/mahsatorabi/high-performance-sport-concept-network).
+Regenerate them by running that repository's scripts/run_all.py.
+
+Reproduce the corpus from scratch using the query and retrieval date
+recorded in docs/scopus_query.md.
+
+Document-concept matrices and concept embeddings (*.npy) are likewise
+withheld: they are numeric transforms of record text.
+
+Derived outputs (result tables, figures, and the verification report) are
+released under CC BY 4.0.
+====================================================================

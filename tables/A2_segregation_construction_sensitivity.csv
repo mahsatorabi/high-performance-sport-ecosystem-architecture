@@ -1,0 +1,8 @@
+﻿construction,mode,z_threshold,min_cooc,edges,mean_degree,observed,null_mean,null_sd,z,null_draws,null_reps
+unfiltered (all co-occurring pairs),unfiltered,,3,77555,231.9,0.8703,0.87,0.0122,0.02,200,200
+count >= 3 only,count-threshold,,3,12179,36.4,0.9181,0.9353,0.0095,-1.82,200,200
+count >= 3 and null z >= 1.0,filtered,1.0,3,7972,23.8,0.9281,0.9464,0.0052,-3.54,200,200
+count >= 3 and null z >= 2.0,filtered,2.0,3,4518,13.5,0.95,0.9642,0.0035,-4.06,200,200
+count >= 3 and null z >= 2.5  [ARTICLE 1],filtered,2.5,3,3219,9.6,0.9623,0.9736,0.0028,-4.12,200,200
+count >= 3 and null z >= 3.0,filtered,3.0,3,2222,6.6,0.9697,0.9828,0.0022,-5.84,200,200
+count >= 5 and null z >= 2.5,filtered,2.5,5,1049,3.1,0.9692,0.9823,0.0033,-3.97,200,200

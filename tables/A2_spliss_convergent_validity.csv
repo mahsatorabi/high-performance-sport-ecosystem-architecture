@@ -1,0 +1,28 @@
+﻿derived_pillar,spliss_pillar,n_in,n_column_total,odds_ratio,p_fisher,p_bh
+GOVERNANCE,P2 policy development,12,6,7.124,8.529e-05,0.0007676
+GOVERNANCE,P5 athlete career support,1,24,0.1484,0.04093,0.1842
+GOVERNANCE,P4 talent identification and development,2,28,0.2544,0.06269,0.1881
+GOVERNANCE,P3 sport participation,0,12,0.0,0.07907,0.1779
+GOVERNANCE,P7 coaching,0,7,0.0,0.3557,0.6403
+GOVERNANCE,P9 scientific and medical support,1,11,0.3238,0.4772,0.7158
+GOVERNANCE,P6 training facilities,0,5,0.0,0.5905,0.7592
+GOVERNANCE,P8 competition,2,11,0.6476,0.7436,0.8366
+GOVERNANCE,P1 financial support,1,4,0.8905,1.0,1.0
+INNOVATION,P4 talent identification and development,1,29,0.0959,0.002135,0.01922
+INNOVATION,P2 policy development,0,18,0.0,0.005715,0.02572
+INNOVATION,P5 athlete career support,1,24,0.1159,0.008671,0.02601
+INNOVATION,P6 training facilities,0,5,0.0,0.3331,0.7494
+INNOVATION,P1 financial support,2,3,1.8539,0.6125,1.0
+INNOVATION,P7 coaching,1,6,0.4635,0.6821,1.0
+INNOVATION,P3 sport participation,2,10,0.5562,0.7405,0.952
+INNOVATION,P8 competition,3,10,0.8342,1.0,1.0
+INNOVATION,P9 scientific and medical support,3,9,0.9269,1.0,1.0
+TALENT,P4 talent identification and development,21,9,9.3758,1.457e-08,1.311e-07
+TALENT,P5 athlete career support,14,11,5.114,0.0001185,0.0005334
+TALENT,P7 coaching,6,1,24.1091,0.0004177,0.001253
+TALENT,P6 training facilities,3,2,6.0273,0.05931,0.1334
+TALENT,P9 scientific and medical support,5,7,2.8701,0.07567,0.1362
+TALENT,P2 policy development,1,17,0.2364,0.2216,0.3324
+TALENT,P3 sport participation,4,8,2.0091,0.2738,0.3521
+TALENT,P1 financial support,0,5,0.0,0.5886,0.6621
+TALENT,P8 competition,2,11,0.7306,1.0,1.0

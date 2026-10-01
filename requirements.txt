@@ -1,0 +1,29 @@
+# Analysis pipeline — frozen environment
+# Python 3.11
+
+# --- core scientific stack ---
+numpy>=2.0
+scipy>=1.13
+pandas>=2.0
+statsmodels>=0.14
+
+# --- graph analysis ---
+networkx>=3.0
+
+# --- neural sentence embeddings ---
+# Article 2 reads the concept families and domain labels that Article 1's pipeline
+# produces; the encoder itself is only needed if Article 1's stages are rerun here.
+sentence-transformers>=3.0
+# Model: intfloat/e5-base-v2  (downloaded on first run)
+
+# --- figures ---
+matplotlib>=3.8
+
+# --- manuscript build and verification ---
+python-docx>=1.1
+
+# NOTE ON SCOPUS DATA
+#   corpus.json, network_edges.csv and pillar_of.json are not redistributable and
+#   are not in this repository. Regenerate them from the companion repository:
+#     https://github.com/mahsatorabi/high-performance-sport-concept-network
+#   See docs/scopus_query.md for the query and retrieval date.

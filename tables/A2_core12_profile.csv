@@ -1,0 +1,18 @@
+statistic,value
+12-core n,24
+12-core mean df,15.75
+12-core median df,11
+12-core min df,3
+12-core max df,71
+core below 12 mean df,15.35
+12-core vs rest Welch t,0.122
+12-core vs rest p,9.035e-01
+within 12-core df-degree rho,0.1677
+within 12-core df-degree p,0.4335
+within 12-core df-betweenness rho,0.546
+across network df-degree rho,0.594
+core-12 composition chi2,14.028
+core-12 composition df,3
+core-12 composition p,0.0029
+core-11 composition chi2,4.815
+core-11 composition p,0.1859

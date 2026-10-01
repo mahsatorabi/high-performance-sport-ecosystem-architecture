@@ -1,0 +1,30 @@
+﻿statistic,value,detail
+participation mean,0.589,N = 584 eligible concepts
+participation sd,0.1702,N = 584
+participation min,0.0,
+participation max,0.75,ceiling for a four-group partition
+participation theoretical maximum,0.75,"1 - 4 x (1/4)^2, four equal groups"
+PC versus weighted betweenness Spearman rho,0.478,p = 1.05e-34
+PC versus weighted betweenness p,1.054e-34,"neighbourhood-based versus path-based, so agreement is corroboration rather than redundancy"
+PC label-permutation mean z,-0.5307,negative sign indicates segregation; 336 of 584 concepts below the null
+eligible concepts,584,degree >= 2 and participation defined
+concepts at degree 4 or higher,480,degree-3 concepts quantise the participation coefficient
+bridges identified,45,PC >= p90 (0.7248) and betweenness >= median (0.001516)
+PC decile threshold,0.7248,
+betweenness median,0.001516,
+share of eligible concepts at exactly zero betweenness,0.072,the median-betweenness clause selects almost nobody
+bridge chi-square,4.6,"dof 3, p 0.203, expected = eligible-set distribution"
+bridge chi-square p,0.2034,
+"named-pillar versus unassigned PC, t",-0.07,p 0.9407
+"named-pillar versus unassigned PC, p",0.9407,
+"mean periods touched, bridges",3.82,of 4
+"mean periods touched, others",3.34,of 4
+periods touched Mann-Whitney p,3.876e-05,
+"mean countries touched, bridges",5.33,of 7
+"mean countries touched, others",4.06,of 7
+countries touched Mann-Whitney p,5.587e-07,
+bridges in all four periods,39,of 45
+bridges in four or more countries,41,of 45
+top-decile bridge participation range,0.735 to 0.750,"the decile sits against the participation ceiling, so ranking within it is partly ranking noise"
+"unsized period design, four-period mean rho",0.229,superseded; range 0.098 to 0.556
+"unsized design, six-block mean rho",0.186,"includes Australia and Canada, so the mean falls to 0.186; top-decile overlap 24.6 per cent"

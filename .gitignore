@@ -1,0 +1,69 @@
+# ============================================================
+# SCOPUS LICENSING — bibliographic records may not be redistributed
+# ============================================================
+data.csv
+**/data.csv
+corpus.json
+**/corpus.json
+network_edges.csv
+**/network_edges.csv
+pillar_of.json
+**/pillar_of.json
+country_window.json
+**/country_window.json
+blocks.json
+**/blocks.json
+concepts.csv
+families.csv
+concept_family_map.csv
+corpus_meta.csv
+tau_selected.json
+# matrices, embeddings, degree and adjacency arrays: transforms of record text
+*.npy
+**/*.npy
+*.npz
+**/*.npz
+
+# ============================================================
+# Raw downloads / large binaries
+# ============================================================
+*.zip
+*.pdf
+*.doc
+*.tmp
+.cache/
+.cache
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ============================================================
+# OS / editor noise
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Document build artefacts
+# ============================================================
+*.bak
+~$*
