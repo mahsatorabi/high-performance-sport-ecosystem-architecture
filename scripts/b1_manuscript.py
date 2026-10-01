@@ -993,7 +993,7 @@ p("All analysis code, derived data, figures and this manuscript are openly avail
   "repository contains the analysis pipeline (run_all.py), the frozen Python environment "
   "(requirements.txt), all seven result tables, all seven figures, the tables underlying "
   "every statistic quoted in the text, and the manuscript verifier, which checks that no "
-  "cited statistic is free-floating and that the word count and citation graph are internally "
+  "cited statistic is free-floating and that the word count and citation graph are "
   "consistent.")
 p("The bibliographic records themselves are not redistributed. They were retrieved from "
   "Scopus under the single structured query recorded in Appendix A on 30 September 2026, which "
